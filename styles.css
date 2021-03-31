@@ -74,8 +74,8 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: var(--mint_light);
-  color: var(--grey_dark);
+  background-color: var(--black_light);
+  color: #fff;
   text-transform: uppercase;
   padding: 0.8rem 1.2rem;
   border-radius: 10rem;
@@ -146,7 +146,6 @@ a {
 .nav_link_btn:link,
 .nav_link_btn:visited {
   padding: 0.8rem 2.5rem;
-  background-color: var(--grey_dark);
   color: #fff;
 }
 
@@ -266,6 +265,7 @@ a {
 
 .about_img {
   width: 100%;
+  height: 100%;
 }
 
 .whatwedo_title {
@@ -389,19 +389,18 @@ a {
   opacity: 1;
 }
 
-/********** section 3 **********/
+/********** section 3 career **********/
 
-/********** section 4 career **********/
-
-.section_4 {
+.section_3 {
   background-color: var(--mint_light);
+  padding: 12% 0 10%;
 }
 
 .career_container {
-  padding: 5% 0;
+  padding: 10% 0;
 }
 
-/********** section 5-1 **********/
+/********** section 4-1 contact **********/
 .tab_container {
   max-width: 120rem;
   background-color: #fff;
@@ -415,18 +414,6 @@ a {
 .tab_btn {
   margin-right: 2.5rem;
   transform: translateY(-30%);
-}
-
-.tab_btn1 {
-  background-color: var(--pink_light);
-}
-
-.tab_btn2 {
-  background-color: var(--salmon_light);
-}
-
-.tab_btn3 {
-  background-color: var(--mint_light);
 }
 
 .tab_btn--active {
@@ -446,14 +433,19 @@ a {
   padding: 2% 5% 3%;
 }
 
-/********** section 5-2 **********/
+.contact_info {
+  font-size: 1rem;
+  padding: 0 0 3%;
+  position: inherit;
+}
+
+/********** section 4-2 **********/
 .newsletter {
   background-color: var(--mint_dark);
   padding: 10% 5%;
 }
 
-.section_5-2 button {
-  background-color: #fff;
+.section_4-2 button {
   margin-top: 5%;
 }
 
@@ -502,6 +494,10 @@ a {
   color: var(--black_light);
   border-radius: 50%;
   margin: 2%;
+}
+
+.social-icon:hover {
+  color: var(--grey_light);
 }
 
 /* modal window */

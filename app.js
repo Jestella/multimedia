@@ -28,7 +28,7 @@ overlay.addEventListener("click", closeModal);
 const message = document.createElement("div");
 message.classList.add("message_window");
 message.innerHTML =
-  "Current Exhibition [Virtual Life 2021] Design Exchange, Toronto | only 5 days left! <button>x</button>";
+  "Current Exhibition [Virtual Life 2021] Design Exchange, Toronto | only 5 days left! &ensp;<button>x</button>";
 
 header.prepend(message);
 
