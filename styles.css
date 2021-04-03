@@ -27,9 +27,10 @@
 }
 
 /* font */
-:root  {
+:root {
   --body-font: "Source Sans Pro", sans-serif;
-  --header-font-size: 12px;
+  --body-font-size: 12px;
+  --section-font: ;
 }
 /* fonts 
 font-family: 'Noto Serif', serif; 400 700
@@ -47,7 +48,7 @@ body {
   background-color: #ebebeb;
   line-height: 1.2;
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: var(--body-font);
   font-size: 12px;
 }
 
@@ -597,5 +598,8 @@ a {
 @media screen and (min-width: 1024px) {
 }
 
-@media screen and (max-width: 768px) {
-}
+@media screen and (max-width: 861px) {
+  .nav_logo,
+  .nav_link:link {
+    font-size: 0.9rem;
+  }
