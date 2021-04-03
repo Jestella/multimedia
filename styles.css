@@ -26,6 +26,11 @@
   );
 }
 
+/* font */
+:root  {
+  --body-font: "Source Sans Pro", sans-serif;
+  --header-font-size: 12px;
+}
 /* fonts 
 font-family: 'Noto Serif', serif; 400 700
 font-family: 'Source Sans Pro', sans-serif; 300 400 600 700
@@ -587,4 +592,10 @@ a {
   color: var(--grey_dark);
   padding: 1.1rem 1rem;
   font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
 }
