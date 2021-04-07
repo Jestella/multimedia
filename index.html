@@ -28,10 +28,13 @@
     <header class="header">
     <nav class="nav">
       <div class="nav_logo"> 
-      <a href="#"><i class="fab fa-codepen"></i> STELLA</a></div>
+      <a href="#"><img src="images/logo1.png" class="logo"></div>
       <ul class="nav_links">
         <li class="nav_item">
           <a class="nav_link" href="#section_1">ABOUT</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#section_1">PROCESS</a>
         </li>
         <li class="nav_item">
           <a class="nav_link" href="#section_2">PROJECT</a>
@@ -56,7 +59,7 @@
         The most beloved interactive multimedia
         experience in the world.
         </p>
-        <button class="btn_2">Learn more</button>
+        <button class="btn_main">Learn more</button>
     </div>
     </div>
 
@@ -64,13 +67,11 @@
   </header>
 
 
-   <!---------------------- SECTION 1-1 / ABOUT ---------------------->
+   <!---------------------- ABOUT ---------------------->
 
-    <section class="section section_1 about" id="section_1">
-      <div class="section_title">
-        <p class="section_title_small">ABOUT</p></div>
-      
-      <div class="section_1-1">
+    <section class="section about" id="about">
+      <p class="section_title">ABOUT</p>
+  
         <div class="about_container">
           <p class="about_title">" We believe in the power of creativity. "</p>
           <p class="about_description_1">
@@ -78,24 +79,26 @@
           </p>
           <p class="about_description_2">Founder & CEO, Stella Lee</p>
         </div>
-      </div>
+
+      
+  
 
 
-   <!---------------------- SECTION 1-2 / PROCESS ---------------------->
+   <!---------------------- PROCESS ---------------------->
 
-    <div class="section_1-2 process">
-        <p class="section_title section section_title_small">Our process</p>
+    <div class="process">
+        <p class="section_title section">Our process</p>
         <div class="whatwedo_container">
-          <div class="box1-1 process_box"><img src="images/about/about1.png" class="about_img" /></div>
-          <div class="box1-2 whatwedo_text process_box">
+          <div class="process_box"><img src="images/about/wethink.png" class="about_img" /></div>
+          <div class="whatwedo_text process_box">
             <p class="whatwedo_title">WE THINK</p>
             <p class="whatwedo_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna aliqua. </p></div>
-          <div class="box2-1 whatwedo_text process_box">
+          <div class="whatwedo_text process_box">
             <p class="whatwedo_title">WE DESIGN</p>
             <p class="whatwedo_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p></div>
-          <div class="box2-2 process_box"><img src="images/about/about2.png" class="about_img" /></div>
-          <div class="box3-1 process_box"><img src="images/about/about3.png" class="about_img" /></div>
-          <div class="box3-2 whatwedo_text process_box">
+          <div class="process_box"><img src="images/about/wedesign.png" class="about_img" /></div>
+          <div class="process_box"><img src="images/about/wemake.png" class="about_img" /></div>
+          <div class="whatwedo_text process_box">
             <p class="whatwedo_title">WE MAKE</p>
             <p class="whatwedo_text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. </p></div>
         </div>
@@ -106,8 +109,8 @@
   
    <!---------------------- SECTION 2 / SLIDES ---------------------->
 
-    <section class="section section_2" id="section_2">
-      <div class="section_title"><p class="section_title_small">PROJECT</p></div>
+    <section class="section slide_section" id="section_2">
+      <p class="section_title">PROJECT</p>
       <div class="slider">
               <div class="slide">
                 <div class="slide_container">
@@ -147,9 +150,9 @@
            
             <button class="slider_btn slider_btn_left"><i class="fas fa-chevron-left"></i></button>
             <button class="slider_btn slider_btn_right"><i class="fas fa-chevron-right"></i></button>
-            <div class="dots">
+          
             </div>
-
+            <div class="dots">
           </div>
     </section>
 
@@ -160,47 +163,44 @@
 
    <!---------------------- SECTION 3 / CAREER ---------------------->
 
-    <section class="section section_3" id="section_3">
+    <section class="section career_section" id="section_3">
       <div class="career">
-        <div class="section_title">
-          <p>We are hiring!
-        </p></div>
+        <p class="section_title section_title_dark">
+          We are hiring!
+        </p>
     <div class="career_container">
         <select id="positions">
-          <option value="hide">POSITION</option>
-          <option value="january" rel="icon-temperature">Web Developer</option>
-          <option value="february">Graphic Designer</option>
-          <option value="november">Videographer</option>
-          <option value="december">Marketing Specialist</option>
+          <option value="hide ">POSITION</option>
+          <option value="0" rel="icon-temperature">Web Developer</option>
+          <option value="1">Graphic Designer</option>
+          <option value="2">Videographer</option>
+          <option value="3">Marketing Specialist</option>
       </select> 
       
       <select id="levels">
           <option value="hide">SENIOR-LEVEL</option>
-          <option value="2010">Entry Level</option>
-          <option value="2010">Experienced</option>
-          <option value="2011">Senior</option>
+          <option value="0">Entry Level</option>
+          <option value="1">Experienced</option>
+          <option value="2">Senior</option>
       </select>
       
       <select id="location">
           <option value="hide">LOCATION</option>
-          <option value="2010">Toronto, Canada</option>
-          <option value="2011">Seoul, Korea</option>
-          <option value="2012">Tokyo, Japan</option>
+          <option value="0">Toronto, Canada</option>
+          <option value="1">Seoul, Korea</option>
+          <option value="2">Tokyo, Japan</option>
       </select>
-      <button class="btn btn1">APPLY</button>
     </div>
-
-
+      <button class="btn_main btn_career">APPLY</button>
+   
       </div>
-    </div>
     </section>
 
   
    <!---------------------- SECTION 4-1 / CONTACT ---------------------->
 
     <section class="section section_4 section_4-1" id="section_4">
-      <div class="section_title"><p class="section_title_small">CONTACT</p>
-    </div>
+      <p class="section_title">CONTACT</p>
 
     <div class="tab_container">
       <div class="tabs">
@@ -245,9 +245,8 @@
 
     <section class="section section_4-2" >
       <div class="newsletter">
-      <div class="section_title">
-          <p>Join Our Newsletter Today!
-        </p></div>
+      <p class="section_title section_title_dark">Join Our Newsletter Today!
+        </p>
         <button class="modal_newsletter btn">Subscribe Newsletter</button>
       </div>
     </div>
