@@ -7,6 +7,8 @@ const btnsOpenModal = document.querySelectorAll(".modal_open_btn");
 const header = document.querySelector(".header");
 const section1 = document.getElementById("section_1");
 
+// responsive navbar
+
 // modal window
 const openModal = function (e) {
   e.preventDefault();

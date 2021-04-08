@@ -154,6 +154,8 @@ a {
   color: var(--grey_dark);
 }
 
+/* mobile navbar*/
+
 /********** header **********/
 .header {
   position: relative;
@@ -168,24 +170,24 @@ a {
   width: 100%;
 }
 
-.header_main {
+.main_content {
   display: block;
+  position: relative;
 }
 
-.header_text {
+.main_text {
   position: absolute;
-  bottom: 45%;
+  top: 10rem;
   left: 5rem;
   width: 30rem;
   display: grid;
   grid-template-rows: 1fr 1fr 0.5fr;
   row-gap: 1.5rem;
   padding: 2%;
-
   text-align: left;
 }
 
-.header_title {
+.main_title {
   font-size: 2.4rem;
   font-weight: 700;
   background: linear-gradient(to right, #f7ffcb 0%, #95fcb6 100%);
@@ -193,7 +195,7 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-.header_description {
+.main_description {
   font-size: 1.4rem;
   color: #fff;
 }
@@ -379,11 +381,11 @@ a {
 
 .career_section {
   background-color: var(--mint_light);
-  padding: 12% 0 10%;
+  padding: 5% 0 10%;
 }
 
 .career_container {
-  padding: 10% 0;
+  padding: 0 0 10%;
 }
 
 .btn_career {
@@ -506,10 +508,9 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 60rem;
-  padding: 4rem 6rem;
+  padding: 2rem;
   background-color: var(--black_light);
   color: #fff;
-  border: 2px solid var(--black_light);
   transition: all 0.5s;
   z-index: 1000;
 }
@@ -526,8 +527,9 @@ a {
 }
 
 .modal_header {
-  font-size: 1.5rem;
-  padding: 10%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 3rem;
 }
 
 .modal_form {
@@ -536,23 +538,24 @@ a {
   color: var(--black_light);
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 1rem;
-  padding: 2%;
+  gap: 0.5rem;
+  padding: 1rem;
 }
 
 .modal_pay_btn {
   margin-top: 10%;
   padding: 3% 20%;
-  background-image: var(--gradient_yellowgreen);
+  font-weight: 700;
+  border: 1px solid var(--white);
 }
 
 .modal_form label {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .modal_form input {
-  padding: 1rem;
-  border: 1px solid #fff;
+  padding: 0.7rem;
+  border: none;
 }
 
 .modal_close_btn {
@@ -562,7 +565,7 @@ a {
   background: none;
   border: none;
   cursor: pointer;
-  color: #fff;
+  color: var(--white);
 }
 
 .hidden {
@@ -593,7 +596,31 @@ a {
 @media screen and (max-width: 861px) {
   .nav_logo,
   .nav_link:link {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .nav_links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .main_text {
+    display: inherit;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    width: 25rem;
+  }
+
+  .main_description {
+    font-size: 1.3rem;
+  }
+
+  .btn_main {
+    display: none;
   }
 
   .about_container {
@@ -602,9 +629,6 @@ a {
 
   .whatwedo_container {
     padding: 0;
-  }
-
-  .slide_section {
   }
 
   .slide_img {
