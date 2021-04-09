@@ -1,15 +1,13 @@
 "use strict";
 
 const modal = document.querySelector(".modal");
+const modal_submission = document.querySelector(".modal_submission");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".modal_close_btn");
 const btnsOpenModal = document.querySelectorAll(".modal_open_btn");
 const header = document.querySelector(".header");
-const section1 = document.getElementById("section_1");
 
-// responsive navbar
-
-// modal window
+// modal window_1 buy ticket
 const openModal = function (e) {
   e.preventDefault();
   modal.classList.remove("hidden");

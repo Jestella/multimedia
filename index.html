@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
 
-    <title>Stella - Project1. Visual</title>
+    <title>Stella - Project1. Multimedia Studio</title>
 
     <link rel="stylesheet" href="styles.css" />
     <script defer src="app.js"></script>
@@ -26,13 +26,13 @@
     <!--------------------------- HEADER --------------------------->
 
     <header class="header">
-    <nav class="nav">
+    <nav class="nav" id="navBar">
       <div class="nav_logo"> 
-      <a href="#"><img src="images/logo1.png" class="logo"></div>
-      
-      <ul class="nav_links" id="navBar">
+      <a href="#"><img src="images/logo1.png" class="logo"></a>
+    </div>  
+      <ul class="nav_links" >
         <li class="nav_item">
-          <a class="nav_link nav_active" href="#section_1">ABOUT</a>
+          <a class="nav_link" href="#section_1">ABOUT</a>
         </li>
         <li class="nav_item">
           <a class="nav_link" href="#section_2">PROCESS</a>
@@ -62,7 +62,7 @@
         The most beloved interactive multimedia
         experience in the world.
         </p>
-        <button class="btn_main">Learn more</button>
+        <button class="btn_main btn_display">Learn more</button>
     </div>
     </div>
 
@@ -72,7 +72,7 @@
 
    <!---------------------- ABOUT ---------------------->
 
-    <section class="section about" id="about">
+    <section class="section about" id="section_1">
       <p class="section_title">ABOUT</p>
   
         <div class="about_container">
@@ -83,14 +83,16 @@
           <p class="about_description_2">Founder & CEO, Stella Lee</p>
         </div>
 
-      
+      </section>
   
 
 
    <!---------------------- PROCESS ---------------------->
 
-    <div class="process">
-        <p class="section_title section">Our process</p>
+  
+
+      <section class="section" id="section_2">
+        <p class="section_title">OUR PROCESS</p>
         <div class="whatwedo_container">
           <div class="process_box"><img src="images/about/wethink.png" class="about_img" /></div>
           <div class="whatwedo_text process_box">
@@ -105,14 +107,14 @@
             <p class="whatwedo_title">WE MAKE</p>
             <p class="whatwedo_text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim. </p></div>
         </div>
-      </div>
+
     </section>
 
 
   
    <!---------------------- SECTION 2 / SLIDES ---------------------->
 
-    <section class="section slide_section" id="section_2">
+    <section class="section slide_section" id="section_3">
       <p class="section_title">PROJECT</p>
       <div class="slider">
               <div class="slide">
@@ -166,7 +168,7 @@
 
    <!---------------------- SECTION 3 / CAREER ---------------------->
 
-    <section class="section career_section" id="section_3">
+    <section class="section career_section" id="section_4">
       <div class="career">
         <p class="section_title section_title_dark">
           We are hiring!
@@ -200,9 +202,9 @@
     </section>
 
   
-   <!---------------------- SECTION 4-1 / CONTACT ---------------------->
+   <!---------------------- SECTION 5 / CONTACT ---------------------->
 
-    <section class="section section_4 section_4-1" id="section_4">
+    <section class="section" id="section_5">
       <p class="section_title">CONTACT</p>
 
     <div class="tab_container">
@@ -246,11 +248,11 @@
 
    <!---------------------- SECTION 4-2 / NEWSLETTER ---------------------->
 
-    <section class="section section_4-2" >
+    <section class="section" id="section_6" >
       <div class="newsletter">
       <p class="section_title section_title_dark">Join Our Newsletter Today!
         </p>
-        <button class="modal_newsletter btn">Subscribe Newsletter</button>
+        <button class="btn">Subscribe Newsletter</button>
       </div>
     </div>
     </section>
@@ -299,7 +301,7 @@
 
    <!---------------------- MODAL WINDOW ---------------------->
 
-<div class="modal modal_1 hidden">
+<div class="modal hidden">
   <button class="modal_close_btn"><i class="fas fa-times"></i></button>
 <p class="modal_header">Buy Tickets</p>
 <form class="modal_form">
@@ -307,17 +309,16 @@
   <input type="text">
   <label>Last Name</label>
   <input type="text">
-  <label>City</label>
-  <input type="text">
-  <label>How Many?</label>
-  <input type="number">
   <label>Email</label>
   <input type="email">
+  <label>Date</label>
+  <input type="date">
+  <label>Time</label>
+  <input type="time">
 </form>
 <button class="btn modal_pay_btn">Pay</button>
 </div>
 <div class="overlay hidden"></div>
-
 
 
 

@@ -141,6 +141,12 @@ a {
   display: block;
 }
 
+.nav_link:hover,
+.nav_link:active {
+  color: inherit;
+  color: var(--mint_dark);
+}
+
 .nav_link_btn:link,
 .nav_link_btn:visited {
   padding: 0.8rem 2.5rem;
@@ -381,7 +387,7 @@ a {
 
 .career_section {
   background-color: var(--mint_light);
-  padding: 5% 0 10%;
+  padding: 10% 0 20%;
 }
 
 .career_container {
@@ -590,28 +596,16 @@ a {
   font-size: 1rem;
 }
 
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (max-width: 861px) {
-  .nav_logo,
+@media screen and (max-width: 826px) {
   .nav_link:link {
     font-size: 0.8rem;
-  }
-
-  .nav_links {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    overflow: hidden;
-    position: relative;
   }
 
   .main_text {
     display: inherit;
     position: absolute;
     left: 10%;
-    top: 60%;
+    top: 55%;
     width: 25rem;
   }
 
@@ -619,7 +613,7 @@ a {
     font-size: 1.3rem;
   }
 
-  .btn_main {
+  .btn_display {
     display: none;
   }
 
@@ -633,5 +627,28 @@ a {
 
   .slide_img {
     width: 25rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .nav {
+    padding: 0;
+    height: 4rem;
+    display: grid;
+    grid-template-rows: 2fr;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    position: absolute;
+    left: 46%;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .nav_link_btn:link {
+    display: none;
   }
 }
