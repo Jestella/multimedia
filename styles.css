@@ -284,7 +284,7 @@ a {
   padding: 2% 5% 5%;
 }
 
-/* section 2 project */
+/* project */
 
 .slide_section {
   background-color: #000;
@@ -383,7 +383,7 @@ a {
   opacity: 1;
 }
 
-/********** section 3 career **********/
+/********** career **********/
 
 .career_section {
   background-color: var(--mint_light);
@@ -405,7 +405,7 @@ a {
   transition: 0.4s;
 }
 
-/********** section 4-1 contact **********/
+/********** contact **********/
 .tab_container {
   max-width: 120rem;
   background-color: #fff;
@@ -449,13 +449,13 @@ a {
   position: inherit;
 }
 
-/********** section 4-2 **********/
+/********** newsletter **********/
 .newsletter {
   background-color: var(--mint_light);
   padding: 10%;
 }
 
-/* footer */
+/********** footer **********/
 .footer {
   padding: 5% 0;
   background-color: #fff;
@@ -468,7 +468,7 @@ a {
 }
 
 .footer_item {
-  margin: 1.5rem;
+  margin: 1.3rem;
   font-size: 0.9rem;
 }
 
@@ -487,7 +487,7 @@ a {
 
 .copyright,
 .copyright_year {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .social-icons {
@@ -605,12 +605,16 @@ a {
     display: inherit;
     position: absolute;
     left: 10%;
-    top: 55%;
-    width: 25rem;
+    top: 60%;
+    width: 23rem;
+  }
+
+  .main_title {
+    font-size: 1.3rem;
   }
 
   .main_description {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .btn_display {
