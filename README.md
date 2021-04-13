@@ -1,4 +1,4 @@
-# ⚡️ Multimedia Company Website
+# ⚡️ Multimedia Studio Website
 
 A business website I built to practice DOM.
 
