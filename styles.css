@@ -81,6 +81,7 @@ body {
   padding: 0.8rem 1rem;
   border-radius: 5rem;
   border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .btn:hover {
@@ -242,6 +243,7 @@ a {
 .about_title {
   font-size: 2.7rem;
   font-style: italic;
+  text-shadow: 0 1px 3px gray;
 }
 
 .about_description_1 {
