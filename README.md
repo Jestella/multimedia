@@ -26,7 +26,7 @@ A single page website I built to practice DOM.
 
 # What I learned
 <ul>
-<li>Creating components, such as modal, slider, tabs, navbar from scratch using only JavaScript</li>
+<li>Creating components, such as modal, slider, tabs, navbar from scratch using pure JavaScript</li>
 <li>JavaScript event handlers</li>
 <li>Event propagation, delegation, and DOM traversing</li>
 <li>Lazy loading images and app performance</li>
