@@ -34,6 +34,4 @@ A single page website I built to practice DOM.
 </ul>
 
 
-# Known issues 
-Contact section: When you click between the city names and the images below, tab disappears. 
 
