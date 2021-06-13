@@ -1,6 +1,6 @@
 # ⚡️ Multimedia Studio Website
 
-A single page website I built to practice DOM.
+A single page application I built to practice DOM.
 
 
 # Demo
